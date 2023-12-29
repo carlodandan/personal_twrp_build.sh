@@ -31,7 +31,7 @@ fi
 echo "Add .gitignore"
 if [ ! -f .gitignore ]; then
   echo "**/slimhub_actions
-  **/android" >> .gitignore
+**/android" >> .gitignore
 fi
 
 # Cleanup
