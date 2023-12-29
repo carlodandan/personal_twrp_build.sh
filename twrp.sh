@@ -88,7 +88,7 @@ cd android/recovery
 source build/envsetup.sh
 export ALLOW_MISSING_DEPENDENCIES=true
 lunch ${DEVICE_MAKEFILE}-eng && mka ${BUILD_TARGET}image
-echo "Your TWRP is no ready. Check in $OUT folder"
+echo "Your TWRP is now ready. Check in $OUT folder"
 
 
 
