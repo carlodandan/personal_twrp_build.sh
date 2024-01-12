@@ -13,13 +13,6 @@ fi
 git config --global user.name "Carlo Dandan"
 git config --global user.email "carlodandan.personal@proton.me"
 
-# This is to avoid .git issues about too much changes happens at once or continously.
-echo "Add .gitignore"
-if [ ! -f .gitignore ]; then
-  echo "**/slimhub_actions
-**/android" >> .gitignore
-fi
-
 # Cleanup
 echo "Clean Build Environment? [yes/no]"
 read clean_build_env
