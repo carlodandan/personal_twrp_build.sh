@@ -79,7 +79,7 @@ fi
 
 # Clone Device Tree
 cd android/recovery
-if [ ! -d device/xiaomi/cannong ]; then
+if [ ! -d ${DEVICE_PATH} ]; then
   git clone --depth=1 ${DEVICE_TREE} -b ${DEVICE_BRANCH} ${DEVICE_PATH}
   cd ../..
   echo "Done cloning device tree."
